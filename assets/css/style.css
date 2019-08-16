@@ -58,7 +58,7 @@ h2, h3 {
 
 /*Trying to keep the contact sidebar fixed while still in the 960px limit. I feel like
 working in percentages is the wrong aproach becuase it may be relative to screen size*/
-/*.sidebar {
+.sidebar {
     position: fixed;
     top: 21.78%;
     right: 13.5%;
@@ -69,8 +69,8 @@ working in percentages is the wrong aproach becuase it may be relative to screen
     float: right;
     border: 1px solid #ddd;
     margin-bottom: 20px;
-}*/
-.sidebar {
+}
+/*.sidebar {
     background: #fff;
     padding: 30px;
     width: 100%;
@@ -78,7 +78,7 @@ working in percentages is the wrong aproach becuase it may be relative to screen
     float: right;
     border: 1px solid #ddd;
     margin-bottom: 20px;
-}
+}*/
 
 h3, .sidebar, h2 {
     border-bottom: 2px solid #eee;
