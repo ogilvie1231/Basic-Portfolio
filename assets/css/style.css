@@ -46,7 +46,7 @@ h2, h3 {
     float: left;
     border: 1px solid #ddd;
 }
-
+/*my images are scrolling*/
 .auth-image {
     width: 200px;
     height: auto;
@@ -211,12 +211,13 @@ a:hover {
 .work h3 {
     border-bottom: 0px;
     position: absolute;
-    bottom: -10px;
+    bottom: 10px;
     padding: 10px;
     width: 100%;
     text-align: center;
     background: #4aaaa5;
     color: rgb(66, 66, 66);
+    margin-bottom: 0px;
 }
 /*contact form*/
 input, textarea{
