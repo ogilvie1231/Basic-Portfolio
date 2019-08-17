@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box
 }
-
+/* Body */
 body {
     background: url('../images/portfolio-background.png');
     font-size: 18px;
@@ -23,6 +23,7 @@ h1, h2, h3 {
 }
 
 h1{
+    font-weight: bold;
     font-size: 30px;
     line-height: 49px;
     border-bottom: 3px solid #ddd;
@@ -46,7 +47,7 @@ h2, h3 {
     float: left;
     border: 1px solid #ddd;
 }
-/*my images are scrolling*/
+/*my images are scrolling **Fixed by setting bottom-margin to 0px and moving text up***/
 .auth-image {
     width: 200px;
     height: auto;
@@ -57,7 +58,7 @@ h2, h3 {
 
 
 /*Trying to keep the contact sidebar fixed while still in the 960px limit. I feel like
-working in percentages is the wrong aproach becuase it may be relative to screen size.*/
+working in percentages is the wrong aproach becuase it may be relative to screen size. Had issue when moved to mobile. Learned about @media today to change css based on screen size*/
 /*.sidebar {
     position: fixed;
     top: 21.78%;
